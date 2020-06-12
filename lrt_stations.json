@@ -1,0 +1,763 @@
+[
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "15 CHOA CHU KANG AVENUE 4 CHOA CHU KANG LRT STATION SINGAPORE 689813",
+        "BLK_NO": "15",
+        "BUILDING": "CHOA CHU KANG LRT STATION",
+        "LATITUDE": "1.38475541089132",
+        "LONGITUDE": "103.74453769781",
+        "LONGTITUDE": "103.74453769781",
+        "POSTAL": "689813",
+        "ROAD_NAME": "CHOA CHU KANG AVENUE 4",
+        "SEARCHVAL": "CHOA CHU KANG LRT STATION",
+        "X": "18119.8205469958",
+        "Y": "40744.9184182305"
+      }
+    ],
+    "Station": "BP1",
+    "Station Name": "Choa Chu Kang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "50 CHOA CHU KANG WAY SOUTH VIEW LRT STATION SINGAPORE 688265",
+        "BLK_NO": "50",
+        "BUILDING": "SOUTH VIEW LRT STATION",
+        "LATITUDE": "1.38029828742401",
+        "LONGITUDE": "103.745291799824",
+        "LONGTITUDE": "103.745291799824",
+        "POSTAL": "688265",
+        "ROAD_NAME": "CHOA CHU KANG WAY",
+        "SEARCHVAL": "SOUTH VIEW LRT STATION",
+        "X": "18203.7242756318",
+        "Y": "40252.0686228611"
+      }
+    ],
+    "Station": "BP2",
+    "Station Name": "South View"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "30 CHOA CHU KANG WAY KEAT HONG LRT STATION SINGAPORE 688266",
+        "BLK_NO": "30",
+        "BUILDING": "KEAT HONG LRT STATION",
+        "LATITUDE": "1.37860276612544",
+        "LONGITUDE": "103.749055519081",
+        "LONGTITUDE": "103.749055519081",
+        "POSTAL": "688266",
+        "ROAD_NAME": "CHOA CHU KANG WAY",
+        "SEARCHVAL": "KEAT HONG LRT STATION",
+        "X": "18622.5726645794",
+        "Y": "40064.571115749"
+      }
+    ],
+    "Station": "BP3",
+    "Station Name": "Keat Hong"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "10 CHOA CHU KANG WAY TECK WHYE LRT STATION SINGAPORE 688267",
+        "BLK_NO": "10",
+        "BUILDING": "TECK WHYE LRT STATION",
+        "LATITUDE": "1.37668467920811",
+        "LONGITUDE": "103.753712232337",
+        "LONGTITUDE": "103.753712232337",
+        "POSTAL": "688267",
+        "ROAD_NAME": "CHOA CHU KANG WAY",
+        "SEARCHVAL": "TECK WHYE LRT STATION",
+        "X": "19140.8000152698",
+        "Y": "39852.4607739262"
+      }
+    ],
+    "Station": "BP4",
+    "Station Name": "Teck Whye"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "40 CHOA CHU KANG ROAD PHOENIX LRT STATION SINGAPORE 689483",
+        "BLK_NO": "40",
+        "BUILDING": "PHOENIX LRT STATION",
+        "LATITUDE": "1.37861545104086",
+        "LONGITUDE": "103.757995558346",
+        "LONGTITUDE": "103.757995558346",
+        "POSTAL": "689483",
+        "ROAD_NAME": "CHOA CHU KANG ROAD",
+        "SEARCHVAL": "PHOENIX LRT STATION",
+        "X": "19617.4881601986",
+        "Y": "40065.9404090643"
+      }
+    ],
+    "Station": "BP5",
+    "Station Name": "Phoenix"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "11 PETIR ROAD BUKIT PANJANG LRT STATION SINGAPORE 678268",
+        "BLK_NO": "11",
+        "BUILDING": "BUKIT PANJANG LRT STATION",
+        "LATITUDE": "1.37792612935449",
+        "LONGITUDE": "103.763103024153",
+        "LONGTITUDE": "103.763103024153",
+        "POSTAL": "678268",
+        "ROAD_NAME": "PETIR ROAD",
+        "SEARCHVAL": "BUKIT PANJANG LRT STATION",
+        "X": "20185.8833923778",
+        "Y": "39989.7012906056"
+      }
+    ],
+    "Station": "BP6",
+    "Station Name": "Bukit Panjang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "31 PETIR ROAD PETIR LRT STATION SINGAPORE 678269",
+        "BLK_NO": "31",
+        "BUILDING": "PETIR LRT STATION",
+        "LATITUDE": "1.37777204259085",
+        "LONGITUDE": "103.766645782497",
+        "LONGTITUDE": "103.766645782497",
+        "POSTAL": "678269",
+        "ROAD_NAME": "PETIR ROAD",
+        "SEARCHVAL": "PETIR LRT STATION",
+        "X": "20580.1479736101",
+        "Y": "39972.651819665"
+      }
+    ],
+    "Station": "BP7",
+    "Station Name": "Petir"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "9 PENDING ROAD PENDING LRT STATION SINGAPORE 678296",
+        "BLK_NO": "9",
+        "BUILDING": "PENDING LRT STATION",
+        "LATITUDE": "1.3761357433499",
+        "LONGITUDE": "103.771261175571",
+        "LONGTITUDE": "103.771261175571",
+        "POSTAL": "678296",
+        "ROAD_NAME": "PENDING ROAD",
+        "SEARCHVAL": "PENDING LRT STATION",
+        "X": "21093.7792520458",
+        "Y": "39791.7041831575"
+      }
+    ],
+    "Station": "BP8",
+    "Station Name": "Pending"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "20 BUKIT PANJANG RING ROAD BANGKIT LRT STATION SINGAPORE 679939",
+        "BLK_NO": "20",
+        "BUILDING": "BANGKIT LRT STATION",
+        "LATITUDE": "1.38002223010089",
+        "LONGITUDE": "103.772647370452",
+        "LONGTITUDE": "103.772647370452",
+        "POSTAL": "679939",
+        "ROAD_NAME": "BUKIT PANJANG RING ROAD",
+        "SEARCHVAL": "BANGKIT LRT STATION",
+        "X": "21248.0565876476",
+        "Y": "40221.4484106172"
+      }
+    ],
+    "Station": "BP9",
+    "Station Name": "Bangkit"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "40 FAJAR ROAD FAJAR LRT STATION SINGAPORE 679004",
+        "BLK_NO": "40",
+        "BUILDING": "FAJAR LRT STATION",
+        "LATITUDE": "1.38452079667567",
+        "LONGITUDE": "103.770808582548",
+        "LONGTITUDE": "103.770808582548",
+        "POSTAL": "679004",
+        "ROAD_NAME": "FAJAR ROAD",
+        "SEARCHVAL": "FAJAR LRT STATION",
+        "X": "21043.4356043758",
+        "Y": "40718.8826553375"
+      }
+    ],
+    "Station": "BP10",
+    "Station Name": "Fajar"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "50 BUKIT PANJANG RING ROAD SEGAR LRT STATION SINGAPORE 679940",
+        "BLK_NO": "50",
+        "BUILDING": "SEGAR LRT STATION",
+        "LATITUDE": "1.38778508663365",
+        "LONGITUDE": "103.769599685249",
+        "LONGTITUDE": "103.769599685249",
+        "POSTAL": "679940",
+        "ROAD_NAME": "BUKIT PANJANG RING ROAD",
+        "SEARCHVAL": "SEGAR LRT STATION",
+        "X": "20908.9104285166",
+        "Y": "41079.835080659"
+      }
+    ],
+    "Station": "BP11",
+    "Station Name": "Segar"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "70 BUKIT PANJANG RING ROAD JELAPANG LRT STATION SINGAPORE 679941",
+        "BLK_NO": "70",
+        "BUILDING": "JELAPANG LRT STATION",
+        "LATITUDE": "1.38673625670363",
+        "LONGITUDE": "103.764533143861",
+        "LONGTITUDE": "103.764533143861",
+        "POSTAL": "679941",
+        "ROAD_NAME": "BUKIT PANJANG RING ROAD",
+        "SEARCHVAL": "JELAPANG LRT STATION",
+        "X": "20345.0661995653",
+        "Y": "40963.8764978871"
+      }
+    ],
+    "Station": "BP12",
+    "Station Name": "Jelapang"
+  },
+  {
+    "Possible Locations": [],
+    "Station": "BP13",
+    "Station Name": "Senja"
+  },
+  {
+    "Possible Locations": [],
+    "Station": "BP14",
+    "Station Name": "Ten Mile Junction"
+  },
+  {
+    "Possible Locations": [],
+    "Station": "STC",
+    "Station Name": "Sengkang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "10 COMPASSVALE STREET COMPASSVALE LRT STATION SINGAPORE 545055",
+        "BLK_NO": "10",
+        "BUILDING": "COMPASSVALE LRT STATION",
+        "LATITUDE": "1.39449304614615",
+        "LONGITUDE": "103.900492450944",
+        "LONGTITUDE": "103.900492450944",
+        "POSTAL": "545055",
+        "ROAD_NAME": "COMPASSVALE STREET",
+        "SEARCHVAL": "COMPASSVALE LRT STATION",
+        "X": "35475.5631352011",
+        "Y": "41821.5782942604"
+      }
+    ],
+    "Station": "SE1",
+    "Station Name": "Compassvale"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "70 RIVERVALE DRIVE RUMBIA LRT STATION SINGAPORE 545054",
+        "BLK_NO": "70",
+        "BUILDING": "RUMBIA LRT STATION",
+        "LATITUDE": "1.39146849670995",
+        "LONGITUDE": "103.905973595042",
+        "LONGTITUDE": "103.905973595042",
+        "POSTAL": "545054",
+        "ROAD_NAME": "RIVERVALE DRIVE",
+        "SEARCHVAL": "RUMBIA LRT STATION",
+        "X": "36085.5525700683",
+        "Y": "41487.1567857787"
+      }
+    ],
+    "Station": "SE2",
+    "Station Name": "Rumbia"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "50 RIVERVALE DRIVE BAKAU LRT STATION SINGAPORE 545053",
+        "BLK_NO": "50",
+        "BUILDING": "BAKAU LRT STATION",
+        "LATITUDE": "1.38799293453417",
+        "LONGITUDE": "103.9054139919",
+        "LONGTITUDE": "103.9054139919",
+        "POSTAL": "545053",
+        "ROAD_NAME": "RIVERVALE DRIVE",
+        "SEARCHVAL": "BAKAU LRT STATION",
+        "X": "36023.2877559392",
+        "Y": "41102.8445294686"
+      }
+    ],
+    "Station": "SE3",
+    "Station Name": "Bakau"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "20 RIVERVALE DRIVE KANGKAR LRT STATION SINGAPORE 545052",
+        "BLK_NO": "20",
+        "BUILDING": "KANGKAR LRT STATION",
+        "LATITUDE": "1.3839591146993",
+        "LONGITUDE": "103.90222537044",
+        "LONGTITUDE": "103.90222537044",
+        "POSTAL": "545052",
+        "ROAD_NAME": "RIVERVALE DRIVE",
+        "SEARCHVAL": "KANGKAR LRT STATION",
+        "X": "35668.448192074",
+        "Y": "40656.7943035532"
+      }
+    ],
+    "Station": "SE4",
+    "Station Name": "Kangkar"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "30 SENGKANG EAST AVENUE RANGGUNG LRT STATION SINGAPORE 545046",
+        "BLK_NO": "30",
+        "BUILDING": "RANGGUNG LRT STATION",
+        "LATITUDE": "1.3842335605514",
+        "LONGITUDE": "103.897194669436",
+        "LONGTITUDE": "103.897194669436",
+        "POSTAL": "545046",
+        "ROAD_NAME": "SENGKANG EAST AVENUE",
+        "SEARCHVAL": "RANGGUNG LRT STATION",
+        "X": "35108.5941914162",
+        "Y": "40687.1254868209"
+      }
+    ],
+    "Station": "SE5",
+    "Station Name": "Ranggung"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "5 ANCHORVALE STREET CHENG LIM LRT STATION SINGAPORE 545047",
+        "BLK_NO": "5",
+        "BUILDING": "CHENG LIM LRT STATION",
+        "LATITUDE": "1.39627763152715",
+        "LONGITUDE": "103.893797180915",
+        "LONGTITUDE": "103.893797180915",
+        "POSTAL": "545047",
+        "ROAD_NAME": "ANCHORVALE STREET",
+        "SEARCHVAL": "CHENG LIM LRT STATION",
+        "X": "34730.4628087208",
+        "Y": "42018.888621157"
+      }
+    ],
+    "Station": "SW1",
+    "Station Name": "Cheng Lim"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "35 ANCHORVALE STREET FARMWAY LRT STATION SINGAPORE 545048",
+        "BLK_NO": "35",
+        "BUILDING": "FARMWAY LRT STATION",
+        "LATITUDE": "1.39717019646603",
+        "LONGITUDE": "103.889304810053",
+        "LONGTITUDE": "103.889304810053",
+        "POSTAL": "545048",
+        "ROAD_NAME": "ANCHORVALE STREET",
+        "SEARCHVAL": "FARMWAY LRT STATION",
+        "X": "34230.5192573462",
+        "Y": "42117.5716008823"
+      }
+    ],
+    "Station": "SW2",
+    "Station Name": "Farmway"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "60 FERNVALE STREET KUPANG LRT STATION SINGAPORE 797697",
+        "BLK_NO": "60",
+        "BUILDING": "KUPANG LRT STATION",
+        "LATITUDE": "1.39821282839768",
+        "LONGITUDE": "103.881256221983",
+        "LONGTITUDE": "103.881256221983",
+        "POSTAL": "797697",
+        "ROAD_NAME": "FERNVALE STREET",
+        "SEARCHVAL": "KUPANG LRT STATION",
+        "X": "33334.8164008986",
+        "Y": "42232.8408000562"
+      }
+    ],
+    "Station": "SW3",
+    "Station Name": "Kupang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "40 FERNVALE ROAD THANGGAM LRT STATION SINGAPORE 797699",
+        "BLK_NO": "40",
+        "BUILDING": "THANGGAM LRT STATION",
+        "LATITUDE": "1.39731815554563",
+        "LONGITUDE": "103.875635156633",
+        "LONGTITUDE": "103.875635156633",
+        "POSTAL": "797699",
+        "ROAD_NAME": "FERNVALE ROAD",
+        "SEARCHVAL": "THANGGAM LRT STATION",
+        "X": "32709.2689197212",
+        "Y": "42133.9003608618"
+      }
+    ],
+    "Station": "SW4",
+    "Station Name": "Thanggam"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "10 FERNVALE ROAD FERNVALE LRT STATION SINGAPORE 797698",
+        "BLK_NO": "10",
+        "BUILDING": "FERNVALE LRT STATION",
+        "LATITUDE": "1.39188588769448",
+        "LONGITUDE": "103.876308611649",
+        "LONGTITUDE": "103.876308611649",
+        "POSTAL": "797698",
+        "ROAD_NAME": "FERNVALE ROAD",
+        "SEARCHVAL": "FERNVALE LRT STATION",
+        "X": "32784.2264312143",
+        "Y": "41533.228894515"
+      }
+    ],
+    "Station": "SW5",
+    "Station Name": "Fernvale"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "11 SENGKANG WEST AVENUE LAYAR LRT STATION SINGAPORE 797700",
+        "BLK_NO": "11",
+        "BUILDING": "LAYAR LRT STATION",
+        "LATITUDE": "1.39207983851612",
+        "LONGITUDE": "103.880029600818",
+        "LONGTITUDE": "103.880029600818",
+        "POSTAL": "797700",
+        "ROAD_NAME": "SENGKANG WEST AVENUE",
+        "SEARCHVAL": "LAYAR LRT STATION",
+        "X": "33198.323352078",
+        "Y": "41554.6828716416"
+      }
+    ],
+    "Station": "SW6",
+    "Station Name": "Layar"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "80 SENGKANG EAST AVENUE TONGKANG LRT STATION SINGAPORE 545050",
+        "BLK_NO": "80",
+        "BUILDING": "TONGKANG LRT STATION",
+        "LATITUDE": "1.38934795343275",
+        "LONGITUDE": "103.885844149844",
+        "LONGTITUDE": "103.885844149844",
+        "POSTAL": "545050",
+        "ROAD_NAME": "SENGKANG EAST AVENUE",
+        "SEARCHVAL": "TONGKANG LRT STATION",
+        "X": "33845.4131928943",
+        "Y": "41252.6183523089"
+      }
+    ],
+    "Station": "SW7",
+    "Station Name": "Tongkang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "60 SENGKANG EAST AVENUE RENJONG LRT STATION SINGAPORE 545049",
+        "BLK_NO": "60",
+        "BUILDING": "RENJONG LRT STATION",
+        "LATITUDE": "1.38672392187267",
+        "LONGITUDE": "103.890539426996",
+        "LONGTITUDE": "103.890539426996",
+        "POSTAL": "545049",
+        "ROAD_NAME": "SENGKANG EAST AVENUE",
+        "SEARCHVAL": "RENJONG LRT STATION",
+        "X": "34367.9436822943",
+        "Y": "40962.4782381114"
+      }
+    ],
+    "Station": "SW8",
+    "Station Name": "Renjong"
+  },
+  {
+    "Possible Locations": [],
+    "Station": "PTC",
+    "Station Name": "Punggol"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "50 PUNGGOL FIELD COVE LRT STATION SINGAPORE 828858",
+        "BLK_NO": "50",
+        "BUILDING": "COVE LRT STATION",
+        "LATITUDE": "1.39928198481483",
+        "LONGITUDE": "103.905961943934",
+        "LONGTITUDE": "103.905961943934",
+        "POSTAL": "828858",
+        "ROAD_NAME": "PUNGGOL FIELD",
+        "SEARCHVAL": "COVE LRT STATION",
+        "X": "36084.2292840881",
+        "Y": "42351.1333773211"
+      }
+    ],
+    "Station": "PE1",
+    "Station Name": "Cove"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "60 PUNGGOL FIELD MERIDIAN LRT STATION SINGAPORE 828857",
+        "BLK_NO": "60",
+        "BUILDING": "MERIDIAN LRT STATION",
+        "LATITUDE": "1.39691205316247",
+        "LONGITUDE": "103.908950216874",
+        "LONGTITUDE": "103.908950216874",
+        "POSTAL": "828857",
+        "ROAD_NAME": "PUNGGOL FIELD",
+        "SEARCHVAL": "MERIDIAN LRT STATION",
+        "X": "36416.7924897084",
+        "Y": "42089.0886109695"
+      }
+    ],
+    "Station": "PE2",
+    "Station Name": "Meridian"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "70 PUNGGOL FIELD CORAL EDGE LRT STATION SINGAPORE 828856",
+        "BLK_NO": "70",
+        "BUILDING": "CORAL EDGE LRT STATION",
+        "LATITUDE": "1.39390922616926",
+        "LONGITUDE": "103.912580855034",
+        "LONGTITUDE": "103.912580855034",
+        "POSTAL": "828856",
+        "ROAD_NAME": "PUNGGOL FIELD",
+        "SEARCHVAL": "CORAL EDGE LRT STATION",
+        "X": "36820.8455250002",
+        "Y": "41757.0642057266"
+      }
+    ],
+    "Station": "PE3",
+    "Station Name": "Coral Edge"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "40 PUNGGOL EAST RIVIERA LRT STATION SINGAPORE 828852",
+        "BLK_NO": "40",
+        "BUILDING": "RIVIERA LRT STATION",
+        "LATITUDE": "1.39452449590886",
+        "LONGITUDE": "103.916166058794",
+        "LONGTITUDE": "103.916166058794",
+        "POSTAL": "828852",
+        "ROAD_NAME": "PUNGGOL EAST",
+        "SEARCHVAL": "RIVIERA LRT STATION",
+        "X": "37219.8292783778",
+        "Y": "41825.1114154644"
+      }
+    ],
+    "Station": "PE4",
+    "Station Name": "Riviera"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "60 PUNGGOL DRIVE KADALOOR LRT STATION SINGAPORE 828853",
+        "BLK_NO": "60",
+        "BUILDING": "KADALOOR LRT STATION",
+        "LATITUDE": "1.39950911293252",
+        "LONGITUDE": "103.916574964987",
+        "LONGTITUDE": "103.916574964987",
+        "POSTAL": "828853",
+        "ROAD_NAME": "PUNGGOL DRIVE",
+        "SEARCHVAL": "KADALOOR LRT STATION",
+        "X": "37265.3156410921",
+        "Y": "42376.2873127777"
+      }
+    ],
+    "Station": "PE5",
+    "Station Name": "Kadaloor"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "50 PUNGGOL DRIVE OASIS LRT STATION SINGAPORE 828854",
+        "BLK_NO": "50",
+        "BUILDING": "OASIS LRT STATION",
+        "LATITUDE": "1.40228667724756",
+        "LONGITUDE": "103.912727355403",
+        "LONGTITUDE": "103.912727355403",
+        "POSTAL": "828854",
+        "ROAD_NAME": "PUNGGOL DRIVE",
+        "SEARCHVAL": "OASIS LRT STATION",
+        "X": "36837.1177746542",
+        "Y": "42683.4017727803"
+      }
+    ],
+    "Station": "PE6",
+    "Station Name": "Oasis"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "40 PUNGGOL DRIVE DAMAI LRT STATION SINGAPORE 828855",
+        "BLK_NO": "40",
+        "BUILDING": "DAMAI LRT STATION",
+        "LATITUDE": "1.40523483636955",
+        "LONGITUDE": "103.908603543654",
+        "LONGTITUDE": "103.908603543654",
+        "POSTAL": "828855",
+        "ROAD_NAME": "PUNGGOL DRIVE",
+        "SEARCHVAL": "DAMAI LRT STATION",
+        "X": "36378.1828010194",
+        "Y": "43009.3794218451"
+      }
+    ],
+    "Station": "PE7",
+    "Station Name": "Damai"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "10 SENTUL CRESCENT SAM KEE LRT STATION SINGAPORE 828851",
+        "BLK_NO": "10",
+        "BUILDING": "SAM KEE LRT STATION",
+        "LATITUDE": "1.40961268528805",
+        "LONGITUDE": "103.904831550608",
+        "LONGTITUDE": "103.904831550608",
+        "POSTAL": "828851",
+        "ROAD_NAME": "SENTUL CRESCENT",
+        "SEARCHVAL": "SAM KEE LRT STATION",
+        "X": "35958.3967099357",
+        "Y": "43493.447022276"
+      }
+    ],
+    "Station": "PW1",
+    "Station Name": "Sam Kee"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "101 PONGGOL SEVENTEENTH AVENUE TECK LEE LRT STATION SINGAPORE 828861",
+        "BLK_NO": "101",
+        "BUILDING": "TECK LEE LRT STATION",
+        "LATITUDE": "1.41277089374632",
+        "LONGITUDE": "103.906577622768",
+        "LONGTITUDE": "103.906577622768",
+        "POSTAL": "828861",
+        "ROAD_NAME": "PONGGOL SEVENTEENTH AVENUE",
+        "SEARCHVAL": "TECK LEE LRT STATION",
+        "X": "36152.6993072899",
+        "Y": "43842.6720870379"
+      }
+    ],
+    "Station": "PW2",
+    "Station Name": "Teck Lee"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "81 PUNGGOL WAY PUNGGOL POINT LRT STATION SINGAPORE 828644",
+        "BLK_NO": "81",
+        "BUILDING": "PUNGGOL POINT LRT STATION",
+        "LATITUDE": "1.41684852058576",
+        "LONGITUDE": "103.906650790673",
+        "LONGTITUDE": "103.906650790673",
+        "POSTAL": "828644",
+        "ROAD_NAME": "PUNGGOL WAY",
+        "SEARCHVAL": "PUNGGOL POINT LRT STATION",
+        "X": "36160.8276229771",
+        "Y": "44293.5561099518"
+      }
+    ],
+    "Station": "PW3",
+    "Station Name": "Punggol Point"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "61 PUNGGOL WAY SAMUDERA LRT STATION SINGAPORE 828645",
+        "BLK_NO": "61",
+        "BUILDING": "SAMUDERA LRT STATION",
+        "LATITUDE": "1.41590171941401",
+        "LONGITUDE": "103.902156316075",
+        "LONGTITUDE": "103.902156316075",
+        "POSTAL": "828645",
+        "ROAD_NAME": "PUNGGOL WAY",
+        "SEARCHVAL": "SAMUDERA LRT STATION",
+        "X": "35660.6596647715",
+        "Y": "44188.8481972627"
+      }
+    ],
+    "Station": "PW4",
+    "Station Name": "Samudera"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "41 PUNGGOL WAY NIBONG LRT STATION SINGAPORE 828862",
+        "BLK_NO": "41",
+        "BUILDING": "NIBONG LRT STATION",
+        "LATITUDE": "1.4118704586919",
+        "LONGITUDE": "103.900313817227",
+        "LONGTITUDE": "103.900313817227",
+        "POSTAL": "828862",
+        "ROAD_NAME": "PUNGGOL WAY",
+        "SEARCHVAL": "NIBONG LRT STATION",
+        "X": "35455.6285503209",
+        "Y": "43743.0854263902"
+      }
+    ],
+    "Station": "PW5",
+    "Station Name": "Nibong"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "31 PUNGGOL WAY SUMANG LRT STATION SINGAPORE 828863",
+        "BLK_NO": "31",
+        "BUILDING": "SUMANG LRT STATION",
+        "LATITUDE": "1.40845242600029",
+        "LONGITUDE": "103.898558454203",
+        "LONGTITUDE": "103.898558454203",
+        "POSTAL": "828863",
+        "ROAD_NAME": "PUNGGOL WAY",
+        "SEARCHVAL": "SUMANG LRT STATION",
+        "X": "35260.2918170346",
+        "Y": "43365.1308389883"
+      }
+    ],
+    "Station": "PW6",
+    "Station Name": "Sumang"
+  },
+  {
+    "Possible Locations": [
+      {
+        "ADDRESS": "21 PUNGGOL WAY SOO TECK LRT STATION SINGAPORE 828864",
+        "BLK_NO": "21",
+        "BUILDING": "SOO TECK LRT STATION",
+        "LATITUDE": "1.40508858446677",
+        "LONGITUDE": "103.897209649938",
+        "LONGTITUDE": "103.897209649938",
+        "POSTAL": "828864",
+        "ROAD_NAME": "PUNGGOL WAY",
+        "SEARCHVAL": "SOO TECK LRT STATION",
+        "X": "35110.1987577695",
+        "Y": "42993.1698571853"
+      }
+    ],
+    "Station": "PW7",
+    "Station Name": "Soo Teck"
+  }
+]
