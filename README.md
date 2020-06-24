@@ -3,7 +3,9 @@ Singapore Postal Codes
 
 This is an improved version from https://github.com/xkjyeah/singapore-postal-codes
 It also contains a dump of all Singapore postal codes retrieved from Onemap.sg.
-The download script and the data dump are attached.
+The download script and the data dump are attached. The original downloaded data is in singpostcode.json.gz, after processing/normalization, it is stored in database.json.gz
+
+It also contains the function code (in dbsearch.py) for address search in database.
 
 Note: Use of the data is governed by the [Open Data Licence](https://www.onemap.sg/legal/opendatalicence.html)
 

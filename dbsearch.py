@@ -24,22 +24,42 @@ class AddrDB:
 
 	def search(self, addrname):
 		name = addrname.upper().replace(',', ' ')
-		name = trim(re.sub('([&#@])', ' \\1 ', name))
+		name = trim(re.sub('([&#@()])', ' \\1 ', name))
 		names = name.split()
 
-		# try to get BLK number
+		# try to extract BLK number
 		try:
-			blk = names.index('BLK') if 'BLK' in name else (names.index['BLOCK'] if 'BLOCK' in names else None)
-			blk = names[blk+1]
-			del names[blk:blk+2]
+			blk_pos = names.index('BLK') if 'BLK' in name else (names.index['BLOCK'] if 'BLOCK' in names else None)
+			blk = names[blk_pos+1]
+			del names[blk_pos:blk_pos+2]
 		except:
 			blk = None
+
+		# try to extract names inside ()
+		brack_data = []
+		try:
+			while '(' in names:
+				pos1 = names.index('(')
+				pos2 = names.index(')', pos1+1)
+				if pos2>pos1+1:
+					brack_data += [' '.join(names[pos1+1:pos2])]
+				del names[pos1:pos2+1]
+		except:
+			pass
 
 		s_pattn = ' '.join(names)
 		res = [i for i in self.db if s_pattn in i['ADDRESS']]
 
-		if blk != None:
-			res = [i for i in res if i['BLK_NO']==blk]
+		# confine search by block number
+		if blk != None and len(res)>1:
+			res1 = [i for i in res if i['BLK_NO']==blk]
+			res = res1 if res1 else res
+
+		# confine search by names in brackets
+		while brack_data and len(res)>1:
+			e = ' %s '%brack_data.pop()
+			res1 = [i for i in res if e in ' %s '%(i['ADDRESS'])]
+			res = res1 if res1 else res
 
 		return res
 
