@@ -23,7 +23,8 @@ class AddrDB:
 		self.db = json.loads(txt)
 
 	def search(self, addrname):
-		name = addrname.upper().replace(',', ' ')
+		name = addrname.upper().replace(',', ' ').replace(' RD ', ' ROAD ')
+		name = re.sub(' RD$', ' ROAD', name)
 		name = trim(re.sub('([&#@()])', ' \\1 ', name))
 		names = name.split()
 
@@ -68,7 +69,7 @@ if __name__=='__main__':
 	parser = argparse.ArgumentParser(usage='$0 <input 1>output 2>progress', description='perform street directory search',
 			formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 	parser.add_argument('--addr-db', '-d', help='Singapore address database file', type=str, default='database.json.gz')
-	parser.add_argument('-optional', help='optional argument')
+	parser.add_argument('--single-line', '-s', help='output single-line JSON format')
 	#nargs='?': optional positional argument; action='append': multiple instances of the arg; type=; default=
 	opt=parser.parse_args()
 	globals().update(vars(opt))
@@ -78,8 +79,12 @@ if __name__=='__main__':
 	while True:
 		try:
 			L = input()
-			res = db.search(L)
-			print(res)
+			res = db.search(L) if L else []
+			if single_line:
+				print(res)
+			else:
+				print(json.dumps(res, indent=1))
+				print(flush=True)
 		except:
 			break
 
