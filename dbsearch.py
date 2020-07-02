@@ -21,11 +21,25 @@ class AddrDB:
 			if type(txt) != str:
 				txt = txt.decode('utf8', 'ignore')
 		self.db = json.loads(txt)
+		self.abbr_dct = {'RD':'ROAD', 'LK':'LINK', 'LN':'LANE', 'PK':'PARK', 'AVE':'AVENUE', 'DR':'DRIVE', 'ST':'STREET'}
+		self.optional = ['ROAD', 'LINK', 'LANE', 'STREET', 'AVENUE', 'DRIVE']
 
 	def search(self, addrname):
-		name = addrname.upper().replace(',', ' ').replace(' RD ', ' ROAD ')
-		name = re.sub(' RD$', ' ROAD', name)
+		res = self.search_full(addrname)
+		if res: return res
+		res = self.search_full(addrname, self.abbr_dct)
+		if res: return res
+		return self.search_full(addrname, self.abbr_dct, self.optional)
+
+	def search_full(self, addrname, abbr={}, opt=[]):
+		name = addrname.upper().replace(',', ' ')
 		name = trim(re.sub('([&#@()])', ' \\1 ', name))
+		for k, v in abbr.items():
+			name = name.replace(' %s '%k, ' %s '%v)
+			name = re.sub(' %s$'%k, ' %s'%v, name)
+		for k in opt:
+			name = name.replace(' %s ' % k, ' ')
+			name = re.sub(' %s$' % k, '', name)
 		names = name.split()
 
 		# try to extract BLK number
