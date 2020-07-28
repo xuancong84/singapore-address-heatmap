@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>Singapore Map</title>
+		<link rel="stylesheet" href="leaflet.css" />
+		<script src="leaflet.js"></script>
+		<script src="data/draw.json.js"></script>
+		<script src="draw_util.js"></script>
+	</head>
+	<body>
+		<div id='map' style='height:100%;'></div>
+	</body>
+	<script>
+	function initializeMap(divname, mapType, zoom, lat, lng, opacity) {
+        /*Generates a map view based on a particular map type*/
+        var mapURL, basemap=null;
+        switch (mapType.split(':')[0]) {
+        case "night":
+            mapURL = "https://maps-{s}.onemap.sg/v3/Night/{z}/{x}/{y}.png";
+            break;
+        case "grey":
+            mapURL = "https://maps-{s}.onemap.sg/v3/Grey/{z}/{x}/{y}.png";
+            break;
+        case "original":
+            mapURL = "https://maps-{s}.onemap.sg/v3/Original/{z}/{x}/{y}.png";
+            break;
+		case "OpenStreetMap":
+            mapURL = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+            break;
+		case "GoogleMap":
+			/* Google map types: "roadmap", "satellite", "terrain", "hybrid", etc. */
+			var GM_type = mapType.split(':')[1]==null?'roadmap':mapType.split(':')[1];
+			basemap = L.gridLayer.googleMutant({type: GM_type});
+			break;
+        default:
+            mapURL = "https://maps-{s}.onemap.sg/v3/Default/{z}/{x}/{y}.png";
+        }
+
+        /*Latitude and Longitude of Singapore*/
+        if (parseFloat(lat) != NaN && lat >= 1.16 && lat <= 1.56073) {
+            lat = lat;
+        } else {
+            lat = 1.31951800264428;
+        }
+        if (parseFloat(lng) != NaN && lng >= 103.502 && lng <= 105.11475) {
+            lng = lng;
+        } else {
+            lng = 103.842154838338;
+        }
+        if (isNaN(zoom) == false && zoom >= 11 && zoom <= 18) {
+            zoom = zoom;
+        } else {
+            zoom = 11;
+        }
+        if (parseFloat(opacity) != NaN && opacity >= 0 && opacity <= 1.0) {
+            opacity = opacity;
+        } else {
+            opacity = 1;
+        }
+        var map = L.map(divname).setView([lat, lng], zoom);
+		basemap = (basemap==null) ? L.tileLayer(mapURL, {
+			detectRetina: true,
+			attribution: '<a href="http://SLA.gov.sg">Singapore Land Authority</a> &copy; All Rights Reserved!',
+			maxZoom: 18,
+			minZoom: 0,
+			transparent: true,
+			opacity: opacity
+		}) : basemap;
+        var attribution = map.attributionControl;
+        attribution.setPrefix('<img src="https://docs.onemap.sg/maps/images/oneMap64-01.png" style="height:20px;width:20px;"/>');
+        basemap.addTo(map);
+        return map;
+    }
+	var map = initializeMap('map',"",11,1.34,103.82,1);
+<!--	L.circle([1.34, 103.82], {'radius': 5000, color:'#00ff00', weight:1}).addTo(map);-->
+
+	if(typeof draw_data !== 'undefined'){
+		drawElements(draw_data, map);
+	}
+
+	</script>
+</html>
