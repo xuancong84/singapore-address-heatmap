@@ -11,6 +11,7 @@ The repo has 4 main functional components:
 2. The database searcher: **dbsearch.py** uses *database.json.gz* with everything in JSON format; **dfsearch.py** uses *database.csv.gz* with everything in Pandas DataFrame format.
 <p float='left'>
   <img src="https://github.com/xuancong84/singapore-address-heatmap/raw/master/example/dfsearch.png" alt="" width="90%" />
+  <img src="https://github.com/xuancong84/singapore-address-heatmap/raw/master/example/dbsearch.png" alt="" width="90%" />
 </p>
 3. The count-map highlighter: given [geo-coordinates, count] pairs with corresponding color hint, it can draw circles on the map, with areas proportional to the counts at that location.
 <p float='left'>
